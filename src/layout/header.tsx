@@ -1,8 +1,8 @@
-import { GlobalIcon } from "@/components/icons/global-icon";
+import { BurgerMenuIcon } from "@/components/icons/burger-menu";
 import { ArrowIcon } from "@/components/icons/arrow-icon";
 import { LogoIcon } from "@/components/icons/logo-icon";
+import { LocaleSwitcher } from "./locale-switcher";
 import { Link } from "@/i18n/navigation";
-import { BurgerMenuIcon } from "@/components/icons/burger-menu";
 
 export const Header = () => {
   return (
@@ -43,12 +43,7 @@ export const Header = () => {
           >
             Contact Us
           </Link>
-          <button className="flex items-center gap-2 cursor-pointer">
-            <GlobalIcon className="size-5 md:size-3 lg:size-4 text-primary" />
-            <span className="text-primary font-bold text-sm max-md:hidden">
-              English
-            </span>
-          </button>
+          <LocaleSwitcher />
         </div>
       </section>
     </header>
