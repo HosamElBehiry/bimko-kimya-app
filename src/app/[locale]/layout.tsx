@@ -39,7 +39,7 @@ export default async function LocaleLayout({
   }
 
   return (
-    <html lang={locale} className="scroll-smooth">
+    <html lang={locale}>
       <body dir={locale === "ar" ? "rtl" : "ltr"} className={Font.className}>
         <NextTopLoader
           color="#8cc543"
