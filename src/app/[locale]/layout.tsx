@@ -6,7 +6,7 @@ import { routing } from "@/i18n/routing";
 import { Header } from "@/layout/header";
 import { Footer } from "@/layout/footer";
 import { Metadata } from "next";
-
+import "swiper/css";
 import "../globals.css";
 
 const Font = Poppins({
