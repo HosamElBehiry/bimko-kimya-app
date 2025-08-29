@@ -1,7 +1,7 @@
 import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { Changa, Poppins } from "next/font/google";
 import NextTopLoader from "nextjs-toploader";
 import { notFound } from "next/navigation";
-import { Poppins } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import { Header } from "@/layout/header";
 import { Footer } from "@/layout/footer";
@@ -9,12 +9,21 @@ import { Metadata } from "next";
 import "swiper/css";
 import "../globals.css";
 
-const Font = Poppins({
+const enFont = Poppins({
   variable: "--font-poppins",
   weight: ["400", "500", "700"],
   subsets: ["latin"],
   display: "swap",
   fallback: ["Poppins", "sans-serif"],
+  adjustFontFallback: true,
+});
+
+const arFont = Changa({
+  variable: "--font-changa",
+  weight: ["400", "500", "700"],
+  subsets: ["arabic", "latin"],
+  display: "swap",
+  fallback: ["Changa", "sans-serif"],
   adjustFontFallback: true,
 });
 
@@ -40,7 +49,10 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body dir={locale === "ar" ? "rtl" : "ltr"} className={Font.className}>
+      <body
+        dir={locale === "ar" ? "rtl" : "ltr"}
+        className={locale === "en" ? enFont.className : arFont.className}
+      >
         <NextTopLoader
           color="#8cc543"
           initialPosition={0.08}

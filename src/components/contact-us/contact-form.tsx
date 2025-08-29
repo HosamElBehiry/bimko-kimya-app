@@ -1,8 +1,10 @@
 "use client";
 
 import { Field, Form, Formik } from "formik";
+import { useTranslations } from "next-intl";
 
 export const ContactForm = () => {
+  const t = useTranslations("contact");
   return (
     <Formik
       initialValues={{
@@ -17,25 +19,25 @@ export const ContactForm = () => {
         <Field
           className="border h-9 sm:h-10 max-sm:placeholder:text-sm max-sm:text-sm lg:h-12 rounded-xl px-6 outline-none"
           name="firstname"
-          placeholder="First Name"
+          placeholder={t("First Name")}
         />
         <Field
           className="border h-9 sm:h-10 max-sm:placeholder:text-sm max-sm:text-sm lg:h-12 rounded-xl px-6 outline-none"
           name="lastname"
-          placeholder="Last Name"
+          placeholder={t("Last Name")}
         />
         <Field
           className="border h-9 sm:h-10 max-sm:placeholder:text-sm max-sm:text-sm lg:h-12 rounded-xl px-6 outline-none col-span-full"
           name="email"
-          placeholder="Email"
+          placeholder={t("Email")}
         />
         <Field
           className="border h-9 sm:h-10 max-sm:placeholder:text-sm max-sm:text-sm lg:h-12 rounded-xl px-6 outline-none col-span-full"
           name="message"
-          placeholder="Message"
+          placeholder={t("Message")}
         />
         <button className="col-span-full w-full font-bold bg-primary text-black/50 h-9 max-sm:text-sm sm:h-10 lg:h-12 rounded-xl px-6 flex items-center justify-center hover:bg-primary/80 cursor-pointer outline-none">
-          Send Message
+          {t("Send Message")}
         </button>
       </Form>
     </Formik>

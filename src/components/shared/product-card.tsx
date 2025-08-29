@@ -18,7 +18,7 @@ export const ProductCard = () => {
         />
       </div>
       <Link
-        href="#"
+        href="/product"
         className="text-primary font-semibold mx-auto underline max-sm:text-xs max-lg:text-sm hover:no-underline"
       >
         Read more

@@ -1,3 +1,32 @@
 {
-  "title": "title"
+  "common": {
+    "Home": "Home",
+    "Our Products": "Our Products",
+    "About Us": "About Us",
+    "Mission & Vision": "Mission & Vision",
+    "Our Values": "Our Values",
+    "Human Resources": "Human Resources",
+    "Production": "Production",
+    "Contact Us": "Contact Us",
+    "Description": "The purpose of a FAQ is generally to provide information on frequent questions or concerns.",
+    "Liquid Fertilizers": "Liquid Fertilizers",
+    "Green Agriculture Products": "Green Agriculture Products",
+    "Suspension Fertilizers (Gel)": "Suspension Fertilizers (Gel)",
+    "Subscribe to Newsletter": "Subscribe to Newsletter",
+    "Email": "Email",
+    "Subscribe": "Subscribe"
+  },
+  "contact": {
+    "Contact Us": "Contact Us",
+    "Send Us a Message": "Send Us a Message",
+    "First Name": "First Name",
+    "Last Name": "Last Name",
+    "Email": "Email",
+    "Message": "Message",
+    "Send Message": "Send Message",
+    "Main Branch": "Main Branch",
+    "Call": "Call",
+    "Whats App": "Whats App",
+    "Location": "Location"
+  }
 }

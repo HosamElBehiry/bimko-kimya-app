@@ -1,3 +1,32 @@
 {
-  "title": "title"
+  "common": {
+    "Home": "الرئيسية",
+    "Our Products": "منتجاتنا",
+    "About Us": "من نحن",
+    "Mission & Vision": "الرؤية والرسالة",
+    "Our Values": "قيمنا",
+    "Human Resources": "الموارد البشرية",
+    "Production": "الإنتاج",
+    "Contact Us": "تواصل معنا",
+    "Description": "يهدف قسم الأسئلة الشائعة إلى الإجابة عن أكثر استفساراتك تكرارًا.",
+    "Liquid Fertilizers": "الأسمدة الذوابة",
+    "Green Agriculture Products": "منتجات الزراعة الخضراء",
+    "Suspension Fertilizers (Gel)": "الأسمدة المعلقة (الجيل)",
+    "Subscribe to Newsletter": "تابع جديدنا عبر البريد",
+    "Email": "ادخل الايميل الخاص بك",
+    "Subscribe": "انضم "
+  },
+  "contact": {
+    "Contact Us": "تواصل معنا",
+    "Send Us a Message": "أرسل لنا  رسالة",
+    "First Name": "الاسم الاول",
+    "Last Name": "الاسم الثاني",
+    "Email": "البريد الالكتروني",
+    "Message": "الرسالة",
+    "Send Message": "إرسال الرسالة",
+    "Main Branch": "الفرع الرئيسي",
+    "Call": "الهاتف",
+    "Whats App": "الواتساب",
+    "Location": "الموقع"
+  }
 }
