@@ -67,5 +67,11 @@
   "our-products": {
     "Filters": "فلتره النتائج",
     "Search": "بحث"
+  },
+  "home": {
+    "Crop": "المحاصيل",
+    "Where quality meets innovation": "حيث تلتقي الجودة بالابتكار",
+    "What We Do": "ماذا نقدم",
+    "Our Objectives": "أهدافنا"
   }
 }

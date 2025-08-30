@@ -13,7 +13,7 @@ export const ReadyToStart = () => {
       </p>
       <Link
         href="/contact-us"
-        className="h-8 sm:h-9 max-sm:text-xs lg:h-10 max-lg:text-[15px] px-5 md:px-7 lg:px-10 bg-gradient-to-b from-[#12141D] to-primary rounded-full text-white cursor-pointer"
+        className="h-8 flex items-center justify-center sm:h-9 max-sm:text-xs lg:h-10 max-lg:text-[15px] px-5 md:px-7 lg:px-10 bg-gradient-to-b from-[#12141D] to-primary rounded-full text-white cursor-pointer"
       >
         {t("Contact Us")}
       </Link>

@@ -33,7 +33,7 @@
   },
   "productions": {
     "Production": "Productions",
-    "Desription": "Bimko Kimya aims to maintain the highest level of customer satisfaction by offering high-quality chemical products. Using modern technologies in our production facilities and supported by research and development activities, we respond quickly and effectively to our customers’ needs. Our goal is to provide our customers with customized solutions that meet their needs."
+    "Description": "Bimko Kimya aims to maintain the highest level of customer satisfaction by offering high-quality chemical products. Using modern technologies in our production facilities and supported by research and development activities, we respond quickly and effectively to our customers’ needs. Our goal is to provide our customers with customized solutions that meet their needs."
   },
   "human-resource": {
     "Human Resource": "Human Resource",
@@ -41,13 +41,13 @@
     "Description2": "Our human resources policy is based on an organizational structure that allows the company to learn and develop efficient manpower in the right place and effectively. Bimko Kimya. as; Working with individuals who are honest, reliable and loyal to our company values is our main goal. The ability to easily adapt to change and to participate successfully in team work is of great importance for our company. The ability to work effectively and creatively and high motivation are indispensable features we seek in our employees. Our companies are committed to continuous development and progress, as well as to their employees personal value. Bimko Kimya is well aware of the value of the investment made on people. As a company, we strive to provide training opportunities for our employees to develop their talents and achieve great success in their respective fields. If you share our global vision and passion for creating value; If you aim to work in a developing, dynamic company, we will be happy to meet you."
   },
   "our-values": {
-    "Our Values": "قيمنا",
-    "Perfectionism": "الإتقان",
-    "Flexibility": "المرونة",
-    "Entrepreneurial Spirit": "روح ريادة الأعمال",
-    "Innovation": "الابتكار",
-    "Sustainability": "الاستدامة",
-    "Consistency and Respect": "الثبات والاحترام"
+    "Our Values": "Our Values",
+    "Perfectionism": "Perfectionism",
+    "Flexibility": "Flexibility",
+    "Entrepreneurial Spirit": "Entrepreneurial Spirit",
+    "Innovation": "Innovation",
+    "Sustainability": "Sustainability",
+    "Consistency and Respect": "Consistency and Respect"
   },
   "mission-vision": {
     "Vission & Mission": "Vission & Mission",
@@ -67,5 +67,11 @@
   "our-products": {
     "Filters": "Filters",
     "Search": "Search"
+  },
+  "home": {
+    "Crop": "Crop",
+    "Where quality meets innovation": "Where quality meets innovation",
+    "What We Do": "What We Do",
+    "Our Objectives": "Our Objectives"
   }
 }
