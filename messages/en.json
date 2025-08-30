@@ -14,7 +14,9 @@
     "Suspension Fertilizers (Gel)": "Suspension Fertilizers (Gel)",
     "Subscribe to Newsletter": "Subscribe to Newsletter",
     "Email": "Email",
-    "Subscribe": "Subscribe"
+    "Subscribe": "Subscribe",
+    "Ready to Get Started?": "Ready to Get Started?",
+    "Description2": "If you have any questions or concerns, feel free to reach out. You may also visit our FAQ section for quick answers to the most common inquiries."
   },
   "contact": {
     "Contact Us": "Contact Us",
@@ -28,5 +30,42 @@
     "Call": "Call",
     "Whats App": "Whats App",
     "Location": "Location"
+  },
+  "productions": {
+    "Production": "Productions",
+    "Desription": "Bimko Kimya aims to maintain the highest level of customer satisfaction by offering high-quality chemical products. Using modern technologies in our production facilities and supported by research and development activities, we respond quickly and effectively to our customers’ needs. Our goal is to provide our customers with customized solutions that meet their needs."
+  },
+  "human-resource": {
+    "Human Resource": "Human Resource",
+    "Description1": "USING EFFICIENT HUMAN POWER IN THE RIGHT PLACE AND EFFICIENTLY MAKES SUCCESS",
+    "Description2": "Our human resources policy is based on an organizational structure that allows the company to learn and develop efficient manpower in the right place and effectively. Bimko Kimya. as; Working with individuals who are honest, reliable and loyal to our company values is our main goal. The ability to easily adapt to change and to participate successfully in team work is of great importance for our company. The ability to work effectively and creatively and high motivation are indispensable features we seek in our employees. Our companies are committed to continuous development and progress, as well as to their employees personal value. Bimko Kimya is well aware of the value of the investment made on people. As a company, we strive to provide training opportunities for our employees to develop their talents and achieve great success in their respective fields. If you share our global vision and passion for creating value; If you aim to work in a developing, dynamic company, we will be happy to meet you."
+  },
+  "our-values": {
+    "Our Values": "قيمنا",
+    "Perfectionism": "الإتقان",
+    "Flexibility": "المرونة",
+    "Entrepreneurial Spirit": "روح ريادة الأعمال",
+    "Innovation": "الابتكار",
+    "Sustainability": "الاستدامة",
+    "Consistency and Respect": "الثبات والاحترام"
+  },
+  "mission-vision": {
+    "Vission & Mission": "Vission & Mission",
+    "OUR MISSION": "OUR MISSION.",
+    "Description1": "Our mission is to achieve long-term, sustainable growth and create value continuously. This is more than just improving operations or cutting costs. Using the leverage factor of company resources in harmony with the environment includes factors such as showing higher performance, providing more valuable products and services for our customers, providing more prosperity for our employees and higher returns for our shareholders.",
+    "OUR VISION": "OUR VISION",
+    "Description2": "To serve the world trade and production in the most honest and perfect way."
+  },
+  "about-us": {
+    "About Us": "About Us",
+    "Description1": "Bimko Kimya, activities in the agricultural chemicals sector; In 1990, it was founded under different names and brands, and today it started production in its factory in Şanlurfa with its innovative and professional staff that is open to developments. Today, it continues its activities in its factory in Şanlurfa 2nd Organized area, which is built on a closed area of 16.000 m2. Bimko Kimya has adopted the principle of adding value to its stakeholders, consisting of its customers and suppliers, with its understanding of quality production and service. With its personnel in the field and production, it continues to work at the latest level of technology with its professional and industry-experienced staff. 20% of the annual production capacity of 200 thousand tons is exported to the Middle East and African countries, especially to European countries.",
+    "Title1": "Always “the best” is our indispensable goal.",
+    "Description2": "Our main goal is to be the best in quality, service, supply sources and dealer relations, and investment options and to protect this image we have in public. To achieve this goal, our basic principle is to undertake management in the fields of operation and to be the market leader.",
+    "Title2": "Our goal is to create resources for continuous improvement.",
+    "Description3": "To make the necessary investments to ensure the continuity of the service; to promote the unification of small and large savings; Our main principles are to help our employees and the economic and social development of the society, to create resources from activities, and to not sacrifice extravagance by providing rational use of all resources. It is our motto to comply with superior business ethics and honest working principles. It is our principle to act in good faith and understanding and to always comply with the laws and moral rules in order to provide mutual benefits in all our relations. Fulfilling our responsibilities towards todays people and future generations is another basic principle that we are pioneers and we cannot give up. for Turkey and the world, conscious of our duty to spread this awareness and environmental protection."
+  },
+  "our-products": {
+    "Filters": "Filters",
+    "Search": "Search"
   }
 }

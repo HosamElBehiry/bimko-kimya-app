@@ -1,11 +1,13 @@
 import { Link } from "@/i18n/navigation";
+import { useLocale } from "next-intl";
 import Image from "next/image";
 
 export const ProductCard = () => {
+  const locale = useLocale();
   return (
     <div className="p-2 sm:p-3 lg:p-5 flex flex-col gap-3 lg:gap-5 border border-slate-200 rounded-lg">
       <span className="bg-primary w-fit text-xs sm:text-sm max-lg:text-[13px] px-3 lg:px-5 py-0.5 rounded-full text-white">
-        Fertilizer Type
+        {locale === "en" ? "Fertilizer Type" : "نوع السماد"}
       </span>
       <div className="w-full aspect-[1/1.05] relative overflow-hidden">
         <Image
@@ -21,7 +23,7 @@ export const ProductCard = () => {
         href="/product"
         className="text-primary font-semibold mx-auto underline max-sm:text-xs max-lg:text-sm hover:no-underline"
       >
-        Read more
+        {locale === "en" ? "Read more" : "قراءة المزيد"}
       </Link>
     </div>
   );
