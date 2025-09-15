@@ -14,7 +14,7 @@ export const HomeCropSwiper = () => {
     <div className="container mx-auto px-5 lg:px-10">
       <div className="relative -top-12 sm:-top-10 md:-top-12 shadow-[0_0_30px_0_#93BE304D] lg:-top-25 z-100 lg:pb-10 pb-5 pt-8 md:py-7 lg:pt-13 bg-white rounded-2xl">
         <span className="absolute rounded-full -top-4 md:-top-6 w-40 sm:w-50 lg:w-60 font-semibold start-1/2 flex items-center justify-center rtl:translate-x-1/2 ltr:-translate-x-1/2 text-white bg-primary px-5 lg:px-10 min-h-8 md:min-h-9 lg:min-h-11 max-h-8 md:max-h-9 lg:max-h-11 text-xs sm:text-sm md:text-base lg:text-lg">
-          {t("Crop")}
+          {t("Products")}
         </span>
         <div className="flex px-3 sm:px-5 items-center gap-3 sm:gap-5 lg:gap-7">
           <button

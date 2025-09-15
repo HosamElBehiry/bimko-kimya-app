@@ -12,10 +12,7 @@ export const FooterLists = ({
       </p>
       <ul className="flex flex-col max-sm:items-center max-sm:justify-center gap-2 lg:gap-3">
         {lists.map((list) => (
-          <li
-            key={list}
-            className="text-[#B9B3B3] max-lg:text-sm max-sm:text-xs"
-          >
+          <li key={list} className="text-white max-lg:text-sm max-sm:text-xs">
             {list}
           </li>
         ))}

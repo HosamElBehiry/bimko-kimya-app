@@ -20,6 +20,12 @@ export const Header = async () => {
           >
             {t("Our Products")}
           </Link>
+          <Link
+            href="#"
+            className="text-primary font-bold max-lg:text-sm max-md:hidden"
+          >
+            {t("Technology")}
+          </Link>
         </div>
         <button className="md:hidden cursor-pointer">
           <BurgerMenuIcon className="text-primary size-5" />

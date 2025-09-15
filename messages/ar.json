@@ -2,6 +2,7 @@
   "common": {
     "Home": "الرئيسية",
     "Our Products": "منتجاتنا",
+    "Technology": "التكنولوجيا",
     "About Us": "من نحن",
     "Mission & Vision": "الرؤية والرسالة",
     "Our Values": "قيمنا",
@@ -69,7 +70,7 @@
     "Search": "بحث"
   },
   "home": {
-    "Crop": "المحاصيل",
+    "Products": "المنتجات",
     "Where quality meets innovation": "حيث تلتقي الجودة بالابتكار",
     "What We Do": "ماذا نقدم",
     "Our Objectives": "أهدافنا"
