@@ -1,9 +1,6 @@
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
-import { ContactMap } from "@/components/contact-us/contact-map";
 import { ContactForm } from "@/components/contact-us/contact-form";
-import { ContactBranches } from "@/components/contact-us/contact-branches";
-import { ContactInformations } from "@/components/contact-us/contact-informations";
 
 const ContactUs = async () => {
   const t = await getTranslations("contact");
@@ -25,19 +22,11 @@ const ContactUs = async () => {
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl text-white text-center font-semibold">
             {t("Contact Us")}
           </h2>
-          <div className="lg:w-5/6 mx-auto flex flex-col gap-5 lg:gap-8 bg-white shadow-[0_4px_4px_0_#00000040] rounded-xl px-5 sm:px-7 lg:px-10 py-5 sm:py-8 lg:py-15">
+          <div className="w-full sm:w-5/6 mx-auto flex flex-col gap-5 lg:gap-8 bg-white min-h-screen shadow-[0_4px_4px_0_#00000040] rounded-xl px-5 sm:px-7 lg:px-10 py-5 sm:py-8 lg:py-15">
             <h2 className="font-semibold text-primary text-xl sm:text-2xl lg:text-3xl text-center">
               {t("Send Us a Message")}
             </h2>
             <ContactForm />
-            <div className="flex flex-col gap-3 lg:gap-5">
-              <h4 className="text-base sm:text-lg lg:text-xl text-black/50">
-                {t("Main Branch")}
-              </h4>
-              <ContactMap />
-              <ContactBranches />
-            </div>
-            <ContactInformations />
           </div>
         </div>
       </div>

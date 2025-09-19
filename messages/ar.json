@@ -9,6 +9,7 @@
     "Human Resources": "الموارد البشرية",
     "Production": "الإنتاج",
     "Contact Us": "تواصل معنا",
+    "Our Distributer": "موزعنا",
     "Description": "يهدف قسم الأسئلة الشائعة إلى الإجابة عن أكثر استفساراتك تكرارًا.",
     "Liquid Fertilizers": "الأسمدة الذوابة",
     "Green Agriculture Products": "منتجات الزراعة الخضراء",
@@ -30,7 +31,9 @@
     "Main Branch": "الفرع الرئيسي",
     "Call": "الهاتف",
     "Whats App": "الواتساب",
-    "Location": "الموقع"
+    "Location": "الموقع",
+    "Our Distributer": "موزعنا",
+    "Find global address": "ابحث عن العنوان العالمي"
   },
   "productions": {
     "Production": "الإنتاج",

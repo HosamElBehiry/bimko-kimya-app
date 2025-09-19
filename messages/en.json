@@ -9,6 +9,7 @@
     "Human Resources": "Human Resources",
     "Production": "Production",
     "Contact Us": "Contact Us",
+    "Our Distributer": "Our Distributer",
     "Description": "The purpose of a FAQ is generally to provide information on frequent questions or concerns.",
     "Liquid Fertilizers": "Liquid Fertilizers",
     "Green Agriculture Products": "Green Agriculture Products",
@@ -30,7 +31,9 @@
     "Main Branch": "Main Branch",
     "Call": "Call",
     "Whats App": "Whats App",
-    "Location": "Location"
+    "Location": "Location",
+    "Our Distributer": "Our Distributer",
+    "Find global address": "Find global address"
   },
   "productions": {
     "Production": "Productions",

@@ -10,7 +10,7 @@ export const ContactMap = () => {
 
   return (
     <GoogleMap
-      mapContainerClassName="w-full h-[400px] rounded-xl"
+      mapContainerClassName="w-full h-screen rounded-xl"
       center={{ lat: 30.0554, lng: 31.2357 }}
       zoom={14}
       options={{

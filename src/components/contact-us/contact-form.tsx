@@ -32,8 +32,10 @@ export const ContactForm = () => {
           placeholder={t("Email")}
         />
         <Field
-          className="border h-9 sm:h-10 max-sm:placeholder:text-sm max-sm:text-sm lg:h-12 rounded-xl px-6 outline-none col-span-full"
+          className="border max-sm:placeholder:text-sm max-sm:text-sm rounded-xl px-6 py-3 outline-none col-span-full"
           name="message"
+          as="textarea"
+          rows={10}
           placeholder={t("Message")}
         />
         <button className="col-span-full w-full font-bold bg-primary text-black/50 h-9 max-sm:text-sm sm:h-10 lg:h-12 rounded-xl px-6 flex items-center justify-center hover:bg-primary/80 cursor-pointer outline-none">

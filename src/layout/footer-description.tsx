@@ -10,22 +10,39 @@ export const FooterDescription = async () => {
   const t = await getTranslations("common");
   return (
     <div className="flex flex-col max-sm:justify-center max-sm:items-center gap-3.5 max-lg:col-span-full lg:gap-5 lg:max-w-80">
-      <p className="text-base sm:text-lg lg:text-xl text-white font-bold">
+      <p className="text-base sm:text-lg lg:text-xl text-secondary font-bold">
         Bimko Kimya
       </p>
-      <p className="text-white text-xs max-sm:text-center sm:text-sm lg:text-base">
+      <p className="text-secondary text-xs max-sm:text-center sm:text-sm lg:text-base">
         {t("Description")}
       </p>
       <div className="flex items-center gap-2 sm:gap-3">
-        <TwitterIcon className="max-lg:size-7" />
-        <FacebookIcon className="text-primary max-lg:size-7" />
-        <InstagramIcon className="max-lg:size-7" />
-        <LinkedInIcon className="max-lg:size-7" />
+        <Link href="https://x.com/BimkoKimya" target="_blank">
+          <TwitterIcon className="max-lg:size-7" />
+        </Link>
+        <Link
+          href="https://www.facebook.com/bimkokimyafertilizer?locale=ar_AR"
+          target="_blank"
+        >
+          <FacebookIcon className="text-primary max-lg:size-7" />
+        </Link>
+        <Link
+          href="https://www.instagram.com/bimkokimyafertilizers/"
+          target="_blank"
+        >
+          <InstagramIcon className="max-lg:size-7" />
+        </Link>
+        <Link
+          href="https://www.linkedin.com/company/bimkokimya/"
+          target="_blank"
+        >
+          <LinkedInIcon className="max-lg:size-7" />
+        </Link>
         <Link
           href="#"
-          className="size-9 bg-[#4B4B4B] rounded-full flex items-center justify-center cursor-pointer"
+          className="size-7 lg:size-9 bg-[#4B4B4B] rounded-full flex items-center justify-center cursor-pointer"
         >
-          <WhatsAppIcon className="size-4.5 text-white" />
+          <WhatsAppIcon className="size-3.5 lg:size-4.5 text-white" />
         </Link>
       </div>
     </div>
